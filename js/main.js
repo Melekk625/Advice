@@ -1,10 +1,8 @@
 const jokeEl = document.getElementById('joke');
 const jokeBtn = document.getElementById('jokeBtn');
 
-// Her açıldığında ilk şaka yüklensin
 generateJoke();
 
-// Butona tıklandığında şaka yenilensin
 jokeBtn.addEventListener('click', generateJoke);
 
 async function generateJoke() {
